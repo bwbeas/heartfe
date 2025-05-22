@@ -18,7 +18,7 @@ const Shutup = () => {
   setErrorMessage('');
 
   try {
-    const response = await fetch('https://loveformbackend.onrender.com/submit', {
+    const response = await fetch('https://heartbe.vercel.app//submit', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ message, isAgreed, selectedOption })
