@@ -23,10 +23,13 @@ const PasswordProtectedPage = () => {
         backgroundImage: `url(${berryImg})`,
         paddingTop: '5%',
         backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center center',
+        backgroundRepeat: 'no-repeat,repeat',
+        backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
-        paddingBottom: '100%'
+        //paddingBottom: '100%',
+        backgroundAttachment: 'scroll', 
+  padding: '5% 10%',
+  minHeight: '100vh',
       }}>
               <div >
                   <div >
